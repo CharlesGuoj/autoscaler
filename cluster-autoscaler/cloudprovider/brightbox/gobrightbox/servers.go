@@ -32,7 +32,7 @@ type Server struct {
 	ServerGroups []ServerGroup `json:"server_groups"`
 }
 
-// ServerConsole is embedded into Server and contains the fields used in reponse
+// ServerConsole is embedded into Server and contains the fields used in response
 // to an ActivateConsoleForServer request.
 type ServerConsole struct {
 	ConsoleToken        string     `json:"console_token"`

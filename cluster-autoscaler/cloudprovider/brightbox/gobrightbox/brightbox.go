@@ -174,7 +174,7 @@ func (c *Client) NewRequest(method, urlStr string, body interface{}) (*http.Requ
 }
 
 // MakeApiRequest makes a http request to the API, JSON encoding any given data
-// and decoding any JSON reponse.
+// and decoding any JSON response.
 //
 // method should be the desired http method, e.g: "GET", "POST", "PUT" etc.
 //
